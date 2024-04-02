@@ -1,0 +1,26 @@
+.weather-search {
+  .additional-info {
+    margin: 0 5rem;
+    max-width: fit-content;
+    p {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .loaded {
+    .additional-info {
+      display: flex;
+      max-width: calc(100% - 10rem - 5rem - 1.4rem);
+      width: 100%;
+      margin: 0.7rem 0 0 calc(5rem + 10rem + 1.4rem);
+      justify-content: space-between;
+      p {
+        gap: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.weather-info {
+  .main-info {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+
+    h1 {
+      color: white;
+      font-weight: 500;
+      line-height: 0.8;
+    }
+    h2 {
+      line-height: 0.8;
+      color: var(--text--light--strong);
+    }
+  }
+}

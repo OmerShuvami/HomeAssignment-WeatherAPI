@@ -1,0 +1,7 @@
+.weather-info {
+  location-info {
+    h3 {
+      color: var(--text--light--strong);
+    }
+  }
+}

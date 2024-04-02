@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+
+:root {
+  font-family: "Heebo", sans-serif;
+  font-size: 10px;
+
+  color-scheme: light dark;
+  color: var(--text);
+  background-color: var(--background);
+
+  --text: #707070;
+  --text--strong: #363636;
+  --text--light:#A8C6CB;
+  --text--light--strong:#E8F1F2;
+  --background: #f1f1f1;
+  --background--secondary:#DDE4E6;
+  --background--accent: #27737D;
+  --border--radius: 1rem;
+  --duration: 200ms;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  margin: 0;
+  font-weight: 200;
+  /* outline: 1px solid pink; */
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  max-width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+  min-height: 100svh;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+}
+
+h1 {
+  font-size: 13rem;
+  line-height: 1.4;
+  letter-spacing: -0.5rem;
+  margin-left: 0.25ch;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.4;
+  }
+h3 {
+  font-size: 2.6rem;
+  line-height: 1.4;
+  }
+h4 {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  }
+
+form {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+label{
+  position: relative;
+}
+input:focus-visible{
+  outline: 1px solid black;
+}
+
+button {
+  border-radius: var(--border--radius);
+  border: 1px solid transparent;
+  padding: 0.5rem 2.3rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  background: #046b3b 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  filter: brightness(1);
+  transition: filter var(--duration) ease-in-out;
+}
+
+button:hover,
+button:focus,
+button:focus-visible {
+  filter: brightness(0.8);
+}
+
+@media screen and (max-width: 1200px) {
+  :root{font-size: 8px;}
+}
+
+@media screen and (max-width: 768px) {
+  :root{font-size: 6px;}
+}

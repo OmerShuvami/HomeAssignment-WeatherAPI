@@ -1,0 +1,42 @@
+#root {
+  width: 100%;
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 11rem);
+  height: calc(100% - 11rem);
+  margin: 5.5rem;
+}
+.container section {
+  width: 100%;
+  min-height: 100%;
+}
+
+.error-input {
+  outline: 2px solid red;
+}
+.error-input:focus-visible {
+  outline: 2px solid red;
+}
+.error-text {
+  position: absolute;
+  margin-top: 0.7rem !important;
+  font-weight: 350;
+  color: red;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+    min-height: calc(100% - 3rem);
+    margin: 3rem 0 0 0;
+    flex-direction: column;
+  }
+}

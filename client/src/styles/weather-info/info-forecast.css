@@ -1,0 +1,12 @@
+.weather-info{
+    .forecast-info {
+      display: flex;
+      align-items: center;
+      align-items: center;
+      justify-content: space-between;
+      b {
+        color: white;
+        font-weight: 500;
+      }
+    }
+}

@@ -1,0 +1,15 @@
+.weather-info {
+  .additional-info {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    b {
+      color: white;
+      font-weight: 500;
+    }
+    p {
+      color: var(--text--light--strong);
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import '../keyframes.css';
+
+.hidden {
+  display: none !important;
+}
+
+.weather-info > div {
+  background-color: var(--background--accent);
+  border-radius: calc(var(--border--radius) * 3);
+  text-align: center;
+  padding: 5rem 5rem 1.5rem 5rem;
+  color: var(--text--light);
+  display: grid;
+  gap: 3rem;
+  width: calc(100% - 10rem - 22rem); /* The full width - padding - margin*/
+  height: calc(100% - 6.5rem - 14rem); /* The full height - padding - margin*/
+}
+
+.weather-info {
+  background-color: var(--background--secondary);
+  border-radius: calc(var(--border--radius) / 2);
+  font-size: 1.8rem;
+  display: grid;
+  place-items: center;
+  z-index: 0;
+  scale: 0.95;
+  animation: slideRight calc(var(--duration) * 3) ease-in-out forwards,
+    scaleUp var(--duration) ease-in-out forwards calc(var(--duration) * 2.5);
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .weather-info {
+    z-index: 2;
+    animation: fadeIn calc(var(--duration) * 5) ease-in-out,
+      scaleUp var(--duration) ease-in-out forwards
+        calc((var(--duration) * 2.5) + (var(--duration) * 5)),
+        expand calc(var(--duration) * 3) ease-in-out calc(var(--duration) * 5);
+    min-height: 0 !important;
+    flex-grow: 1;
+  }
+  .weather-info > div {
+    width: calc(100% - 10rem - 10rem);
+  }
+}
