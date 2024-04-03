@@ -2,19 +2,19 @@
 This is a web application that provides weather information based on user input. It utilizes a weather API to fetch real-time weather data and displays it to the user.
 
 ## Features
-Weather Search: Users can input a location (city name, postal code, etc.) to retrieve weather information for that location.
+### Weather Search: ### Users can input a location (city name, postal code, etc.) to retrieve weather information for that location.
 Current Weather: Displays the current weather conditions including temperature, humidity, wind speed, and weather description.
 Forecast: Provides a forecast for the upcoming days, including temperature highs and lows, and weather conditions.
 Responsive Design: The application is designed to work seamlessly on various devices and screen sizes.
 
 ## Technologies Used
-HTML
-CSS
-JavaScript (with React.jsx)
-Weather API (weatherapi.com)
-Axios (for making API requests)
-Node.js
-Express.js
+HTML,
+CSS,
+JavaScript (with React.jsx),
+Weather API (weatherapi.com),
+Axios (for making API requests),
+Node.js,
+Express.js.
 
 ## Setup
 1. Clone the repository to your local machine.
