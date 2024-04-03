@@ -1,4 +1,4 @@
-##Weather API - Home Assingment
+# Weather API - Home Assingment
 This is a web application that provides weather information based on user input. It utilizes a weather API to fetch real-time weather data and displays it to the user.
 
 #Features
