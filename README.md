@@ -16,10 +16,15 @@ Axios (for making API requests),
 Node.js,
 Express.js.
 
-## Setup
-1. Clone the repository to your local machine.
-2. Install dependencies using npm install.
+## Setup (Steps 3 & 4 are optional)
+1. Clone the repository to your local machine:
+`git clone https://github.com/OmerShuvami/HomeAssignment-WeatherAPI.git`
+2. Install dependencies using npm install:
+`npm install`
 3. Obtain an API key from the weather API provider (weatherapi.com).
-4. Create a .env file in the root directory and add your API key: REACT_APP_WEATHER_API_KEY=your_api_key_here.
-5. Start the development server using node/nodemon server.js in the server folder.
-5. Start the application using npm run dev in the client folder.
+4. Create a .env file in the root directory and add your API key:
+ `REACT_APP_WEATHER_API_KEY=your_api_key_here`
+5. Start the development server in the server folder:
+`node server.js`
+6. Start the application in the client folder:
+`npm run dev`
